@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("./salad.jpg") ;
+  font-family: 'Remoto' sans-serif;
+}
+
+ul{
+  list-style: none;
+  margin: 48px 0px;
+}
+
+ul li a {
+   height: 53px;
+   display: flex;
+   align-items: center;
+   /* desceu mais pro centro */
+   justify-content: center;
+   /* foi pro centro */
+   background: #8fbc8f;
+   /* cor nos botões */
+  text-decoration: none;
+  /* tira a barrinha do link */
+  color: black;
+  /* cor no link */
+  font-size: 30px;
+  /* tamanho da fonte */
+
+  margin-bottom: 16px;
+  border-radius: 18px;
+  /* borda do botão */
+
+  transition: background 400ms;
+  /* transição de cor dos botões */
+}
+
+ul li a:hover{
+  background: #2e8b57;
+}
